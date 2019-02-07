@@ -1,14 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+   
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+
 body{
     max-width: 750px;
     margin: 0 auto;
-    font-family: 'PT Sans', sans-serif;
     color: rgb(77, 77, 77);
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Rubik', sans-serif;
 }
 
 h2{
     color: rgb(185, 185, 185);
 }
-
 
 /* header */
 
@@ -19,8 +35,11 @@ header{
     padding-top: 70px;
 }
 
-h1{
+header h1{
+    font-weight: bold;
+    color: #000;
     font-size: 2.4rem;
+
 }
 
 header ul{
@@ -30,7 +49,6 @@ header ul{
 header ul li{
     margin: 0 10px;
 }
-
 
 header ul li:first-child{
     margin-left: 0;
@@ -45,18 +63,19 @@ header li i{
 }
 
 
-
 /* Bio */
 
 .bio{
     padding: 50px 0px;
 }
 
+
 /* Projects */
 
 .projects{
     padding-bottom: 50px;
 }
+
 
 /* Contact */
 
@@ -101,31 +120,3 @@ footer{
     text-align: center;
     padding-top: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
